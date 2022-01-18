@@ -1,0 +1,215 @@
+
+body {
+	margin: 0px;
+	padding: 0;
+	background: #000000 url(images/img04.jpg) repeat-x left top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #464646;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #000000;
+}
+
+h1 { font-size: 44px; }
+
+h2 { font-size: 18px; }
+
+h3 { }
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 240%;
+	text-align: justify;
+}
+
+ul, ol { }
+
+blockquote { }
+
+a { color: #DBA500; }
+
+a:hover { text-decoration: none; }
+
+a img {
+	border: none;
+}
+
+img.left {
+	float: left;
+	margin: 7px 30px 0 0;
+}
+
+img.right {
+	float: right;
+	margin: 7px 0 0 30px;
+}
+ img:hover {
+	
+transform: scale(1.5);
+	
+}
+
+ img {
+	
+transition: .3s;	
+}
+
+hr { display: none; }
+
+#header-wrapper {
+	height: 60px;
+	background: #FFDE00;
+}
+
+#header {
+	width: 900px;
+	margin: 0 auto;
+}
+
+
+
+#date {
+	position: relative;
+	bottom: 20px;
+	float: right;
+}
+
+#date fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#date-text {
+	width: 210px;
+	padding: 3px 5px 3px 5px;
+	color: #000000;
+}
+
+#audio {
+	position: relative;
+	top: 12.5px;
+	
+}
+
+#page {
+	width: 900px;
+	margin: 0px auto;
+	padding: 40px 0px 0px 0px;
+	background: #FFFFFF url(images/img06.jpg) repeat-y left 20px;
+}
+
+
+#logo {
+	width: 900px;
+	height: 107px;
+	margin: 0 auto;
+	padding: 10px 0px 0px 0px;
+}
+
+#logo h1, #logo p {
+	margin: 0px;
+	line-height: normal;
+	text-transform:none;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+#logo h1 a {
+	color: #FFDE00;
+}
+
+#logo p {
+	margin-top: -4px;
+	text-transform: lowercase;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	color: #AAAAAA;
+}
+
+#logo h1 {
+	font-size: 48px;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #AAAAAA;
+}
+
+
+#content {
+	float: left;
+	width: 590px;
+	
+}
+
+.post {
+	margin-bottom: 45px;
+	width: 900px;
+	padding: 5px; 
+}
+
+.post .title {
+	padding: 20px 0px 0px 30px;
+}
+
+.post .title a {
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 30px;
+	color: #000000;
+}
+
+.post .meta {
+	background: #000000 url(images/img03.jpg) no-repeat right top;
+	height: 28px;
+	padding: 2px 30px 0px 30px;
+	text-transform: lowercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 11px;
+	color: #FFFFFF;
+	transform: translateX(-5px);
+}
+
+.post .meta span {
+	margin: 0px;
+}
+
+.post .meta a {
+	text-decoration: none;
+	color: #FFDE00;
+}
+
+.post .entry {
+	padding: 10px;
+	width: 65%;
+	float: right;
+}
+.post .entry1 {
+	padding: 20px;
+}
+
+#footer {
+	width: 900px;
+	height: 100px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+#footer p {
+	margin: 0;
+	padding: 30px 0px 0px 0px;
+	text-align: center;
+	text-transform: lowercase;
+	line-height: normal;
+	font-size: 11px;
+}
+
+
